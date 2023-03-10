@@ -1,0 +1,146 @@
+:root {
+  /* root color variables */
+  --bright-blue: #007bff;
+  --light-grey-body: #fafafa;
+  --white: white;
+  --body-font: #666;
+  --slate-gray: lightslategray;
+  --silver: silver;
+  --graphite: #506578;
+  --trench-blue: #406885;
+  --green-grey: #e0e1e2;
+  --light-blue: #d0e9fe;
+  --alice-blue: aliceblue;
+  --chocolate: rgb(210, 105, 30);
+  --page-bg: #f0f3f6;
+  --unemployed-red: #db4c3f;
+  --employee-green: mediumseagreen;
+  --manager-purple: mediumorchid;
+  --owner-blue: dodgerblue;
+  --skyscraper-green: #d3d9d7;
+  --house-green: green;
+  --orange-realty: #f1592b;
+  --dark-red-realty: #dc2c35;
+  --light-green-realty: #8bc34a;
+  --dark-green-realty: #3f9653;
+  --light-purple-realty: #b257c2;
+  --dark-purple-realty: #7e57c2;
+  --light-blue-realty: #00aad4;
+  --dark-blue-realty: #0072bb;
+  --eap-green: #0c5460;
+}
+
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Albert Sans", Helvetica, Arial, sans-serif;
+  background: var(--page-bg);
+  color: var(--graphite);
+  font-size: 1.1rem;
+  padding-bottom: 5rem;
+}
+
+#nd-logo {
+   width: 50px !important;
+}
+
+/* colors -------------------------------------------------------- */
+.chocolate {
+   color: var(--chocolate);
+}
+
+.bg-trench-blue {
+   background-color: var(--trench-blue);
+}
+
+.bright-blue {
+   color: var(--bright-blue);
+}
+
+.bg-alice-blue {
+   background: var(--alice-blue);
+}
+
+/* Search-box --------------------------------------------------- */
+#search-box {
+  margin-top: 3rem;
+  outline: none;
+  background: var(--alice-blue);
+  padding: 1rem 1rem .25rem;
+  margin-bottom: 1.5rem;
+  /* border: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important; */
+}
+
+#search-box input {
+  text-shadow: none !important;
+  color: var(--graphite);
+  border: none !important;
+  background: var(--alice-blue);
+}
+
+.input-group-text {
+  background-color: var(--alice-blue);
+}
+
+/* Utilities */
+.small-caps {
+  font-variant: small-caps;
+}
+
+.badge {
+  padding: .4rem .6rem;
+}
+
+.urls {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+input::placeholder {
+  color: var(--slate-gray) !important;
+  text-shadow: none;
+}
+
+.card-header button {
+  font-size: 1.1rem !important;
+}
+
+.form-control:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+/* Utility Classes ----------------------------------------------- */
+.pointer {
+  cursor: pointer;
+}
+
+.text-large {
+  font-size: 110% !important;
+}
+
+.text-larger {
+  font-size: 125% !important;
+}
+
+.one-line-limit {
+  width: 100%; /* set a fixed width for the paragraph */
+  white-space: wrap; /* prevent line breaks within the paragraph */
+  overflow: hidden; /* hide any overflow beyond the paragraph's width */
+  text-overflow: ellipsis; /* display an ellipsis to indicate text overflow */
+  display: -webkit-box; /* set display to a block-level flex container */
+  -webkit-line-clamp: 1; /* limit the number of lines to 2 */
+  -webkit-box-orient: vertical; /* set vertical orientation for the flex container */
+}
