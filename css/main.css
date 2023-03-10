@@ -122,6 +122,10 @@ input::placeholder {
   box-shadow: none !important;
 }
 
+#filter-buttons {
+  flex-wrap: wrap;
+}
+
 /* Utility Classes ----------------------------------------------- */
 .pointer {
   cursor: pointer;
