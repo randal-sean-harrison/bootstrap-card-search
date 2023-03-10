@@ -2,7 +2,7 @@ $(function () {
   // Show the counts in the buttons
   var allCount = $("#projects-div").find(".card").length;
   console.log(allCount)
-  $("#all").append("<span class='ml-2 badge badge-light badge-pill text-smaller'>" + allCount + "</span>");
+  $("#all").append("<span class='ml-3 badge badge-light badge-pill text-smaller'>" + allCount + "</span>");
 
   var bluesCount = $("#projects-div").find(".blues").length;
   var greensCount = $("#projects-div").find(".greens").length;
@@ -11,11 +11,11 @@ $(function () {
   var greysCount = $("#projects-div").find(".greys").length;
   var tealsCount = $("#projects-div").find(".teals").length;
 
-  $("#blues").append("<span class='ml-2 badge badge-light badge-pill text-smaller'>" + bluesCount + "</span>");
-  $("#greens").append("<span class='ml-2 badge badge-light badge-pill text-smaller'>" + greensCount + "</span>");
-  $("#reds").append("<span class='ml-2 badge badge-light badge-pill text-smaller'>" + redsCount + "</span>");
-  $("#oranges").append("<span class='ml-2 badge badge-light badge-pill text-smaller'>" + orangesCount + "</span>");
-  $("#teals").append("<span class='ml-2 badge badge-light badge-pill text-smaller'>" + tealsCount + "</span>");
+  $("#blues").append("<span class='ml-3 badge badge-light badge-pill text-smaller'>" + bluesCount + "</span>");
+  $("#greens").append("<span class='ml-3 badge badge-light badge-pill text-smaller'>" + greensCount + "</span>");
+  $("#reds").append("<span class='ml-3 badge badge-light badge-pill text-smaller'>" + redsCount + "</span>");
+  $("#oranges").append("<span class='ml-3 badge badge-light badge-pill text-smaller'>" + orangesCount + "</span>");
+  $("#teals").append("<span class='ml-3 badge badge-light badge-pill text-smaller'>" + tealsCount + "</span>");
 
   //   Clear the search
   $("#search-refresh-button").on("click", function () {
