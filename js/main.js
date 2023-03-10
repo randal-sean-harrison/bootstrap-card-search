@@ -52,7 +52,7 @@ $(function () {
 
   $(document).on("click", "#filter-buttons span", function (e) {
     e.stopPropagation(); // stop the event from bubbling up
-    $(this).parent("button").click(); // trigger the button click event
+    $(this).parent(".btn").click(); // trigger the button click event
   });
 
   // Show all panels on focus into the input field
