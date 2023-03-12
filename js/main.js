@@ -1,7 +1,6 @@
 $(function () {
   // Show the counts in the buttons
   var allCount = $("#projects-div").find(".card").length;
-  console.log(allCount)
   $("#all").append("<span class='ml-3 badge badge-light badge-pill text-smaller'>" + allCount + "</span>");
 
   var bluesCount = $("#projects-div").find(".blues").length;
